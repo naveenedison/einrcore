@@ -3,7 +3,7 @@
 'use strict';
 
 var path = require('path');
-var litecored = require('litecore-node/lib/cli/bitcored');
+var einrcored = require('einrcore-node/lib/cli/bitcored');
 var servicesPath = path.resolve(__dirname, '../');
-var additionalServices = ['insight-lite-api', 'insight-lite-ui'];
-litecored(servicesPath, additionalServices);
+var additionalServices = ['insight-einr-api', 'insight-einr-ui'];
+einrcored(servicesPath, additionalServices);

@@ -1,5 +1,5 @@
 {
-  "name": "litecore",
+  "name": "einrcore",
   "version": "4.1.10",
   "description": "A platform to build bitcoin and blockchain-based applications.",
   "author": "BitPay <dev@bitpay.com>",
@@ -9,13 +9,13 @@
     "build-deb": "./scripts/build-deb"
   },
   "bin": {
-    "litecore": "./bin/litecore",
-    "litecored": "./bin/litecored"
+    "einrcore": "./bin/einrcore",
+    "einrcored": "./bin/einrcored"
   },
   "contributors": [
     {
       "name": "Charlie Lee",
-      "email": "coblee@litecoin.org"
+      "email": "coblee@einrcoin.org"
     },
     {
       "name": "Daniel Cousens",
@@ -67,7 +67,7 @@
     }
   ],
   "keywords": [
-    "litecoin",
+    "einrcoin",
     "transaction",
     "address",
     "p2p",
@@ -84,16 +84,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/litecoin-project/litecore.git"
+    "url": "https://github.com/naveenedison/einrcore.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
-    "litecore-lib": "^0.13.22",
-    "litecore-node": "^3.1.11",
-    "insight-lite-api": "^0.4.4",
-    "insight-lite-ui": "^0.4.2"
+    "einrcore-lib": "^0.13.22",
+    "einrcore-node": "^3.1.11",
+    "insight-einr-api": "^0.4.4",
+    "insight-einr-ui": "^0.4.2"
   },
   "license": "MIT",
   "devDependencies": {

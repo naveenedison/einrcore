@@ -1,5 +1,5 @@
 'use strict';
 
-var litecore = require('litecore-lib');
+var einrcore = require('einrcore-lib');
 
-module.exports = litecore;
+module.exports = einrcore;
